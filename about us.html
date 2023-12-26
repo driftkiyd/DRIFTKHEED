@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+      <title>D.K</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/modernizr.js"></script>
+      <script type="text/javascript" src="js/responsee.js"></script>
+      <script type="text/javascript" src="js/template-scripts.js"></script> 
+                 
+      <!--[if lt IE 9]>
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <![endif]-->
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->
+      <header>
+         <div id="topbar">
+            <div class="line">
+               <div class="s-12 m-6 l-6">
+                  <p>CONTACT US: <strong>+254 708 306 514</strong> | <strong>katanabakei@gmail.com</strong></p>
+               </div>
+               <div class="s-12 m-6 l-6">
+                  <div class="social right">
+                     <a><i class="icon-facebook_circle"></i></a> <a><i class="icon-twitter_circle"></i></a> <a><i class="icon-instagram_circle"></i></a>
+                  </div>
+               </div>
+            </div>  
+         </div> 
+         <nav>
+            <div class="line">
+               <div class="s-12 l-2">
+                  <p class="logo"><strong>DRIFTKHEED</strong></p>
+               </div>
+               <div class="top-nav s-12 l-10">
+                  <p class="nav-text">Custom menu text</p>
+                  <ul class="right">
+                     <li><a href="index.html">Home</a></li>
+                     <li class="active-item"><a href="#about-us">About Us</a></li>                     
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>  
+      <section>         
+         
+         <!-- ABOUT US -->
+         <div id="about-us">
+            <div class="s-12 m-12 l-6 media-container">
+               <img src="img/second.jpg" alt="">
+            </div>
+            <article class="s-12 m-12 l-6">
+               <h2>Who<br> We Are</h2>
+               <p>We are one of the best private / public transport service in Mombasa.We offer our service within Mombasa, we are prefered the best due to our 
+                  comfortable seats, well trained licenced driver, well serviced vehicle & well ventileted windows. We offer our services at 
+ 		  affordadle price especially when its comes in family trips, vacation and relocation.</p>
+		<p>
+		  We guarantee safety to our client during there trips or relocation.	
+               </p>
+               <div class="about-us-icons">
+                  </i> <i class="icon-trophy"></i> <i class="icon-clock"></i>
+               </div>
+            </article>
+         </div>   
+
+	<!-- LATEST NEWS -->
+         <div id="latest-news">
+            <div class="line">
+              <h2 class="section-title">Latest News</h2> 
+              <div class="margin">
+                <div class="s-12 m-6 l-6">
+                  <div class="s-12 l-2">
+                    <div class="news-date">
+                      <p class="day">28</p><p class="month">AUGUST</p><p class="year">2023</p>
+                    </div>
+                  </div>
+                  <div class="s-12 l-10">
+                    <div class="news-text">
+                      <h4>First latest News</h4>
+                      <p>A family trip from Mombasa Airport to mamangina for a cool breeze then to haller park and back to there 
+			 final destination at a hotel at Mtwapa.</p>
+                    </div>
+                  </div>   
+                </div> 
+                <div class="s-12 m-6 l-6">
+                  <div class="s-12 l-2">
+                    <div class="news-date">
+                      <p class="day">12</p><p class="month">JANUARY</p><p class="year">2023</p>
+                    </div>
+                  </div>
+                  <div class="s-12 l-10">
+                    <div class="news-text">
+                      <h4>Second latest News</h4>
+                      <p>A church trip from Mombasa to Malindi and back to there first destination safely.</p>
+                    </div>
+                  </div>   
+                </div>  
+              </div>
+            </div>
+         </div>      
+         
+         
+      <!-- FOOTER -->
+      <footer>
+         <div class="line">
+            <div class="s-12 l-6">
+               <p>Copyright 2024.</p>
+               <p></p>
+            </div>
+            <div class="s-12 l-6">
+               <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design by kai</a>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {
+            var theme_slider = $("#owl-demo");
+            $("#owl-demo").owlCarousel({
+                navigation: false,
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                autoPlay: 6000,
+                addClassActive: true,
+             // transitionStyle: "fade",
+                singleItem: true
+            });
+            $("#owl-demo2").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["&#xf007","&#xf006"],
+                pagination: false,
+                singleItem: true
+            });
+        
+            // Custom Navigation Events
+            $(".next-arrow").click(function() {
+                theme_slider.trigger('owl.next');
+            })
+            $(".prev-arrow").click(function() {
+                theme_slider.trigger('owl.prev');
+            })     
+        }); 
+      </script>
+   </body>
+</html>
